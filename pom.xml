@@ -3,6 +3,13 @@
   <groupId>springdemo-main</groupId>
   <artifactId>spring-main-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>4.3.12.RELEASE</version>
+</dependency>
+</dependencies>
   <build>
   	<plugins>
   		<plugin>
