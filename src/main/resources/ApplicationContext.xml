@@ -9,13 +9,12 @@
 
 	</bean>
 		
-	<bean name="developerService"
-		class="com.springtest.service.DeveloperServiceImpl"> 
-		<property name="developerRepository" ref="developerRepository"></property>
+<bean name="developerService"
+		class="com.springtest.service.DeveloperServiceImpl"  autowire="constructor">
+				<!--<constructor-arg index="0" ref="developerRepository"></constructor-arg>-->
+		
 		
 	</bean>
-	
-	
 	
 	
 	

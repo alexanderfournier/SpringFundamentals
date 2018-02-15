@@ -9,6 +9,15 @@ public class DeveloperServiceImpl implements DeveloperService {
 	
 	private  DeveloperRepository developerRepository;
 	
+	public DeveloperServiceImpl() {
+		
+	}
+	
+	public DeveloperServiceImpl(DeveloperRepository developerRepository) {
+		this.developerRepository = developerRepository;
+	}
+	
+	
 	
 	
 	
