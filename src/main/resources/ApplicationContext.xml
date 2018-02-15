@@ -9,26 +9,13 @@
 
 	</bean>
 		
-<bean name="developerService"
-		class="com.springtest.service.DeveloperServiceImpl"  autowire="constructor">
-				<!--<constructor-arg index="0" ref="developerRepository"></constructor-arg>-->
-		
+	<bean name="developerService"
+		class="com.springtest.service.DeveloperServiceImpl"> 
+		<constructor-arg index="0" ref="developerRepository"></constructor-arg>
 		
 	</bean>
 	
-	
-	
-   <!--detail> ok so lets walk through this alex
-   				the first bean above with the name= reference ties to the bean below's reference.
-   				
-   				this would essentailly look like this 
-   				
-   				DeveloperRepository developerRepository = new DeveloperServiceImpl();
-   				
-   				we are calling the setter of developer repository
 
-	  </detail-->
-	
  
 </beans>
 
